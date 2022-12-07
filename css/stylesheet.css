@@ -1,0 +1,101 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.container-home{
+    overflow: auto;
+    background-image: url('../image/1.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    position:static;
+    overflow: hidden;
+    box-shadow: inset;
+    top: 0px;
+}
+.img.brand{
+    border-radius: 50%;
+}
+.nav-menu{
+    display: inline;
+    padding: 1rem;
+}
+.nav-item{
+    display: inline;
+    list-style-type: none;
+    padding: 1rem;
+    margin: 1rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #fff;
+    background-color: #F9004D;
+    border: 2px;
+    border-radius: 10px;
+    height: 3rem;
+    padding: 8px;
+    transition: 1s ease-in-out;
+}
+.nav-icon{
+    padding: 1rem;
+}
+.fa{
+    margin: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.nav-button{
+    background-color: #F9004D;
+    height: 3rem;
+    width: 8rem;
+    margin: 1rem;
+    border-radius: 8px;
+    border: 2px;
+    color: #fff;
+    font-weight: bold;
+    font-size: large;
+}
+.nav-button:hover{
+    background-color: white;
+    transition: 1s ease-in-out;
+    color: rgb(10, 10, 10);
+    border: 6px  black;
+    cursor: pointer;
+    box-shadow: ;
+
+}
+
+.container-body{
+    margin-left: 9rem;
+    margin-right: 9rem;
+
+}
+.content{
+    margin-top: 17rem;
+}
+.sub-content{
+    margin: 5px;
+    letter-spacing: 10px;
+}
+.para-container{
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 5rem;
+    align-items: center;
+}
+.para-container span{
+    color: #F9004D;
+}
