@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +10,18 @@
 
     <title>Portfolio</title>
 </head>
+
 <body>
-        <div class="container-home">
-            <div class="navbar">
-                <div class="nav-brand">
-                    <img src="./image/logo-symbol-dark.png" alt="logo" class="img-brand" width="80" height="80">
-                </div>
-                <ul class="nav-menu">
+    <div class="container-home">
+        <div class="navbar" id="navbar">
+            <div class="nav-brand">
+                <img src="./image/logo-symbol-dark.png" alt="logo" class="img-brand" width="80" height="80">
+            </div>
+            <a href="#" class="toggle-button">
+                <span class="fa fa-bars"></span>
+            </a>
+            <div class="navbar-menu">
+                <div class="nav-menu">
                     <li class="nav-item">
                         <a href="#home" class="nav-link">Home</a>
                     </li>
@@ -29,12 +35,12 @@
                         <a href="#element" class="nav-link">Element</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#blog" class="nav-link">Blog</a>
+                        <a href="#service" class="nav-link">Service</a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact</a>
                     </li>
-                </ul>
+                </div>
                 <div class="nav-icon">
                     <span><i class="fa fa-facebook"></i></span>
                     <span><i class="fa fa-linkedin"></i></span>
@@ -44,16 +50,206 @@
                 </div>
                 <button class="nav-button">Let's Task</button>
             </div>
-            <div class="container-body">
-                <div class="content">
+
+        </div>
+
+        <div class="container-body" id="home">
+            <div class="content">
                 <p>
                     <span class="sub-content">Freelance Design</span><br>
-                    <span class="para-container">Hello ,<br>
+                    <span class="para-container">Hello , I am<br>
                         <span>Pacifique Developer</span><br>
-                       Welcome to my World</span>
+                        Welcome to my World</span>
                 </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-about" id="about">
+        <div class="column-one">
+            <img src="./image/IMG.png" alt="" class="img-about">
+        </div>
+        <div class="column-two">
+            <h2>About Me</h2>
+            <p class="column-two-p">
+                There are many variations of passages of Lorem Ipsum available,<br>
+                 but the majority have suffered alteration in some form, by injected humour,<br> 
+                 or randomised words which dont look even slightly believable.<br> 
+                 If you are going to use a passage of Lorem Ipsum,
+            </p>
+            <div class="about-menu">
+                 <span>Main Skills</span>
+                 <span>Awards</span>
+                 <span>Experinces</span>
+                 <span>Education && certifecation</span>
+            </div>
+            <div class="content-about">
+                <h4>User experience design -UI/UX</h4>
+                <p class="column-two-p">
+                    Delight the user and make it work.
+                </p>
+                <h4>Web and user interface design - Development</h4>
+                <p class="column-two-p">
+                    Website, web experiences,........
+                </p>
+                <h4>Interaction design - Animation</h4>
+                <p class="column-two-p">
+                    I like to move it move it.
+                </p>
+                <div>
+                    <button class="btn-alert">Download CV</button>
+                    <button class="btn-hire">Hire Me</button>
                 </div>
             </div>
-    </div>
+        </div>
+     </div>
+     <div class="about-container">
+        <h1>My Best Client</h1>
+                <p class="column-two-p">
+
+            There are many variations of passages of Lorem  ipsum available,<br> but  the majority have suffer alteration
+        </p>
+     </div>
+     <div class="page-logo" id="Pages">
+        <div class="one">
+            <span>
+            <img src="./image/brand-01.png" alt="" class="scr">
+        </span>
+        <span>
+            <img src="./image/brand-02.png" alt="" class="scr">
+        </span>
+        <span>
+            <img src="./image/brand-03.png" alt="" class="scr">
+        </span>
+            
+        </div>
+        <div class="two">
+            <span>
+                <img src="./image/brand-04.png" alt="" class="scr">
+            </span>
+            <span>
+                <img src="./image/brand-05.png" alt="" class="scr">
+            </span>
+            <span>
+                <img src="./image/brand-03.png" alt="" class="scr">
+            </span>
+        </div>
+        <div class="three">
+            <span>
+                <img src="./image/brand-05.png" alt="" class="scr">
+            </span>
+            <span>
+                <img src="./image/brand-06.png" alt="" class="scr">
+            </span>
+            <span>
+                <img src="./image/brand-01.png" alt="" class="scr">
+            </span>
+        </div>
+
+     </div>
+     <div class="about-container">
+        <h1>My Service Project</h1>
+                <p class="column-two-p">
+
+            There are many variations of passages of Lorem  ipsum available,<br> but  the majority have suffer alteration
+        </p>
+     </div>
+     <div class="service-page" id="service">
+        <div class="imageContainer">
+            <img src="./image/portfolio-1.jpg" alt="Nature" style="width:100%;">
+            <div class="captionBlock">
+             <h5>Development</h5>
+             <h2>Getting Tickets to the  next Show</h2>
+                <button>Case study</button>
+            </div>
+            </div>
+            <div class="imageContainer">
+                <img src="./image/portfolio-7.jpg" alt="Nature" style="width:100%;">
+                <div class="captionBlock">
+                 <h5>Freelancer</h5>
+                 <h2>You can see your
+                    Portfolio</h2>
+                    <button>Case study</button>
+                </div>
+                </div>
+                <div class="imageContainer">
+                    <img src="./image/portfolio-8.jpg" alt="Nature" style="width:100%;">
+                    <div class="captionBlock">
+                     <h5>App development</h5>
+                     <h2>The Language of Developer</h2>
+                        <button>Case study</button>
+                    </div>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="./image/portfolio-6.jpg" alt="Nature" style="width:100%;">
+                        <div class="captionBlock">
+                         <h5>Development</h5>
+                         <h2>How To Find THe Right
+                            Agency For  Your Specific
+                            Product</h2>
+                            <button>Case study</button>
+                        </div>
+                        </div>
+                        <div class="imageContainer">
+                            <img src="./image/portfolio-1.jpg" alt="Nature" style="width:100%;">
+                            <div class="captionBlock">
+                             <h5>Mobile App</h5>
+                             <h2>The Ultimate Guide to Agency</h2>
+                                <button>Case study</button>
+                            </div>
+                            </div>
+                            <div class="imageContainer">
+                                <img src="./image/portfolio-5.jpg" alt="Nature" style="width:100%;">
+                                <div class="captionBlock">
+                                 <h5>Graphic</h5>
+                                 <h2>How to Turn Your Agency From Zero To Hero</h2>
+                                    <button>Case study</button>
+                                </div>
+                                </div>
+                             </div>
+                                <div id="contact" class="contact-div">
+                                    <div class="contact">
+                                        <h1>Hire Me</h1>
+                                        <p class="column-two-p">
+                                            I am available for freelance work. Connect with me via phone:<br> 
+                                            01912-123456 or email: admin@example.com
+                                        </p>
+                                        <form id="form" class="form-contact" onsubmit="handle(event)">
+                                            <span id="demo"></span>
+                                            <input type="text" name="" id="name" placeholder="Your names*" required>
+                                            <input type="email" name="" id="email" placeholder="Your email*" required>
+                                            <input type="text" name="" id="subject" placeholder="Your subject*" required>
+                                            <textarea name="" id="message" placeholder="your message*" required>
+                                            </textarea>
+                                         <input type="submit" value="Send message" id="submit">
+                                         </form>
+                                    </div>
+                                    <div class="img-contact">
+                                        <img src="./image/IMG.png" alt="" class="src">
+                                    </div>
+
+                                </div>
+
+                        <footer>
+                            <div class="footer-div">
+                                <div class="footer-logo">
+                                <img src="./image/logo-symbol-dark.png" alt="" class="src">
+                                 </div>
+                                 <div class="footer-icon">
+                                    <span><i class="fa fa-facebook"></i></span>
+                                    <span><i class="fa fa-twitter"></i></span>
+                                    <span><i class="fa fa-instagram"></i></span>
+                                    <span><i class="fa fa-linkedin"></i></span>
+                                 </div>
+                                 <div>
+                                    <p class="column-two-p">
+                                        &copy;
+                                        2022. All rights reserved by Paccy Developer
+                                    </p>
+                                 </div>
+
+                            </div>
+                        </footer>
+
+    <script src="./js/navbar.js"></script>
 </body>
 </html>
