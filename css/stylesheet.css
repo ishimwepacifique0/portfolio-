@@ -150,11 +150,17 @@ body{
     margin-right: 4rem;
 }
 .img-about{
-    width: 25rem;
-    height: 39rem;
-    border-radius:4px;
+    width: 23rem;
+    height: 36rem;
+    border-radius:1rem;
     box-sizing: border-box;
-    box-shadow: 40px 40px 40px #eeeeee
+    box-shadow: 40px 40px 40px #eeeeee;
+    transition: 1.5s ease;
+
+}
+.img-about:hover{
+    transform: scale(1.1);
+    overflow: hidden;
 }
 .about-menu{
     font-weight: bold;
@@ -257,10 +263,15 @@ body{
     border-radius: 8px;
  }
  .img-contact img{
-    width: 25rem;
+    width: 23rem;
     height: 38rem;
-    border-radius: 5px;
+    border-radius: 1rem;
     box-shadow: 30px 30px 10px #eeeeee;
+    transition: 1.5s ease;
+ }
+ .img-contact img:hover{
+    transform: scale(1.1);
+    box-shadow: none;
  }
  .contact h1{
     font-size: 3rem;
@@ -268,13 +279,13 @@ body{
  }
  .contact-div{
     margin-top: 6rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
  }
  .form-contact{
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     width: 33rem;

@@ -1,0 +1,52 @@
+body{
+    background-color: teal;
+}
+h1{
+    font-size: 3rem;
+    color: aliceblue;
+    text-align: center;
+}
+.result{
+    display: flex;
+    justify-content: center;
+}
+.form-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1;
+    margin: 2rem;
+    padding: rem;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.78em;
+    margin-bottom: 0.50em;
+}
+input{
+    padding: 0.45rem;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+ input[type='submit']{
+    margin-top: 1rem;
+    width: 14.5rem;
+
+ }
+.input-container, .output-container{
+    border: 2px solid #ffffff;
+    width: 23rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+h2{
+    text-align: center;
+    color: white;
+    
+}
+#blogOutputs{
+    display: flex;
+    flex-direction: column;
+}
