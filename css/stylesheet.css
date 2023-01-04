@@ -9,11 +9,12 @@ body{
     text-transform: inherit;
 }
 .container-home{
-    background-image: url('../image/1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
+    color: white;
+    background-color: #1D1E24;
 }
 .navbar-menu{
     display: flex;
@@ -46,7 +47,7 @@ body{
 }
 .nav-link{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 .nav-link:hover{
@@ -124,7 +125,7 @@ body{
 .para-container{
     letter-spacing: 4px;
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 5rem;
     align-items: center;
 }
 .para-container span{
@@ -369,7 +370,7 @@ body{
     }
     .container-home{
         overflow: auto;
-        background-image: url('../image/1.jpg');
+        background-image: url('../image/IMG.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
