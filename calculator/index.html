@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Calculato</title>
+</head>
+<body>
+    <div class="container">
+    <div class="form-data" id="form">
+        <table class="table-data">
+            <tr>
+                <td colspan="5">
+                <div class="result-set" id="result-set"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                <div class="result-screen" >
+                    <input type="text" id="result-screen">
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button  onclick="handleClear()" class="clear">clear</button>
+                </td>
+                <td>
+                    <button  onclick="handleOpen()">(</button>
+                </td>
+                <td>
+                    <button  onclick="handleClose()">)</button>
+                </td>
+                <td>
+                    <button  onclick="handleMod()">mod</button>
+                </td>
+                <td>
+                    <button  onclick="handleLog()">log</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button  onclick="handleSeven()">7</button>
+                </td>
+                <td>
+                    <button  onclick="handleEigth()">8</button>
+                </td>
+                <td>
+                    <button  onclick="handleNine()">9</button>
+                </td>
+                <td>
+                    <button  onclick="handleDivision()">/</button>
+                </td>
+                <td>
+                    <button  onclick="handleSqrt()">Sqrt</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button  onclick="handleFour()">4</button>
+
+                </td>
+                <td>
+                    <button  onclick="handleFive()">5</button>
+                </td>
+                <td>
+                    <button  onclick="handleSix()">6</button>  </td>
+                <td>
+                    <button  onclick="handleMultiple()">*</button>
+                </td>
+                <td>
+                    <button  onclick="handlePower()">pow</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button  onclick="handleOne()">1</button>
+
+                </td>
+                <td>
+                    <button  onclick="handleTwo()">2</button>
+                </td>
+                <td>
+                    <button  onclick="handleThree()">3</button>
+                    <td>
+                    <button  onclick="handleSubtraction()">-</button>
+                </td>
+                <td rowspan="2">
+                    <button  onclick="handleEqual()" class="equal">=</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button  onclick="handleZero()">0</button>
+                </td>
+                <td>
+                    <button  onclick="handleDot()">.</button>
+                </td>
+                <td>
+                    <button  onclick="handleModular()">%</button>
+                    <td>
+                    <button  onclick="handleAdd()">+</button>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
