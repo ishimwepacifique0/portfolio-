@@ -9,12 +9,12 @@ body{
     text-transform: inherit;
 }
 .container-home{
+    background-image: url('../image/IMG.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
     color: white;
-    background-color: #1D1E24;
 }
 .navbar-menu{
     display: flex;
@@ -152,7 +152,7 @@ body{
 }
 .img-about{
     width: 23rem;
-    height: 36rem;
+    height: 34rem;
     border-radius:1rem;
     box-sizing: border-box;
     box-shadow: 40px 40px 40px #eeeeee;
@@ -265,7 +265,7 @@ body{
  }
  .img-contact img{
     width: 23rem;
-    height: 38rem;
+    height: 36rem;
     border-radius: 1rem;
     box-shadow: 30px 30px 10px #eeeeee;
     transition: 1.5s ease;

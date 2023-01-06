@@ -59,4 +59,3 @@ const getBlogs = () => {
 //     })
 //     localStorage.setItem("blogs", JSON.stringify(array));
 //   }
-
